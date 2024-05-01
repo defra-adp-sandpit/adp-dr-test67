@@ -1,0 +1,10 @@
+services:
+  adp-dr-test67:
+    build:
+      context: .
+      target: production
+    image: adp-dr-test67
+    container_name: adp-dr-test67
+    environment:
+      APPINSIGHTS_CLOUDROLE: adp-dr-test67-local
+      APPINSIGHTS_CONNECTIONSTRING: ${APPINSIGHTS_CONNECTIONSTRING}

@@ -1,0 +1,3 @@
+{{- include "adp-helm-library.azure-ingress" (list . "adp-dr-test67.ingress") -}}
+{{- define "adp-dr-test67.ingress" -}}
+{{- end -}}

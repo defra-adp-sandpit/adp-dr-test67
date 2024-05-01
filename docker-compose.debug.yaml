@@ -1,0 +1,3 @@
+services:
+  adp-dr-test67:
+    command: npm run start:debug
